@@ -1,0 +1,33 @@
+body{
+    background-color: whitesmoke;
+    font-style: normal;
+    font-family: "Helvetica";
+}
+
+.selection {
+    display: flex;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.selection button{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.results {
+    display: flex;
+    font-weight: bold;
+    flex-direction: column;
+}
+
+.results h3 {
+    margin-right: 300px;
+    font-size: 20px;
+}
+
+#results-txt {
+    font-size: larger;
+    font-weight: bolder;
+    color: red;
+}
