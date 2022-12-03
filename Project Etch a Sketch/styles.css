@@ -1,0 +1,38 @@
+body {
+    background-color: steelblue;
+
+}
+
+#board {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(64, 1fr);
+    grid-template-rows: repeat(64, 1fr);
+    border-style: solid;
+    border-color: black;
+    margin: auto;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons button{
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: whitesmoke;
+    color: darkslategrey;
+    border-radius: 10px;
+}
+
+#title {
+    align-self: center;
+    font-weight: bold;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 2px 2px darkslategrey;
+}
